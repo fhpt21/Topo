@@ -26,11 +26,11 @@
         <ul class="nav-menu">
           <li> <a href="#home" class="nav-link">HOME</a> </li>
           <li> <a href="#about" class="nav-link">ABOUT</a> </li>
-          <li> <a href="#rooms" class="nav-link">CITES</a> </li>
-          <li> <a href="#rooms" class="nav-link">PROMOTIONS</a> </li>
-          <li> <a href="#restaurant" class="nav-link">MARKET</a> </li>
+          <li> <a href="#cites" class="nav-link">CITES</a> </li>
+          <li> <a href="#promo" class="nav-link">PROMOTIONS</a> </li>
+          <li> <a href="#market" class="nav-link">MARKET</a> </li>
           <li> <a href="#gallery" class="nav-link">GALLERY</a> </li>
-          <li> <a href="#contact" class="nav-link">BOOK NOW</a> </li>
+          <li> <a href="#book" class="nav-link">BOOK NOW</a> </li>
         </ul>
 
         <div class="hambuger">
@@ -66,7 +66,7 @@
       <div class="box">
         <div class="text">
           <h1>Welcome to Botswana Camp Trails</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        
           <button>MORE INFO</button>
         </div>
       </div>
@@ -91,31 +91,7 @@
       line.style.background = change;
     }
   </script>
-  <section class="book">
-    <div class="container flex">
-      <div class="input grid">
-        <div class="box">
-          <label>Check-in:</label>
-          <input type="date" placeholder="Check-in-Date">
-        </div>
-        <div class="box">
-          <label>Check-out:</label>
-          <input type="date" placeholder="Check-out-Date">
-        </div>
-        <div class="box">
-          <label>Adults:</label> <br>
-          <input type="number" placeholder="0">
-        </div>
-        <div class="box">
-          <label>Children:</label> <br>
-          <input type="number" placeholder="0">
-        </div>
-      </div>
-      <div class="search">
-        <input type="submit" value="SEARCH">
-      </div>
-    </div>
-  </section>
+ 
   <section class="about top" id="about">
     <div class="container flex">
       <div class="left">
@@ -138,7 +114,7 @@
       </div>
     </div>
   </section>
-  <section class="wrapper top">
+  <section class="wrapper top" id="cites">
     <div class="button">
           <button class="btn1">BOOK NOW</button>
         </div>
@@ -262,7 +238,7 @@ We encourage camping because it provides a host of benefits. Simply put, camping
       </div>
     </div>
   </section>
-  <section class="gallary mtop " id="gallary">
+  <section class="gallary mtop " id="promo">
     <div class="container">
       <div class="heading_top flex1">
         <div class="heading">
@@ -290,7 +266,7 @@ We encourage camping because it provides a host of benefits. Simply put, camping
 
     </div>
   </section>
-  <section class="room top" id="room">
+  <section class="room top" id="market">
     <div class="container">
       <div class="heading_top flex1">
         <div class="heading">
@@ -305,29 +281,30 @@ We encourage camping because it provides a host of benefits. Simply put, camping
       <div class="content grid">
         <div class="box">
           <div class="img">
-            <img src="image/r1.jpg" alt="">
+            <img src="image/camp.jpg" alt="">
           </div>
           <div class="text">
-            <h3>Ablutions</h3>
+            <h3>Camp Chairs</h3>
+            <p> <span>P</span>345 <span>each</span> </p>
            
           </div>
         </div>
         <div class="box">
           <div class="img">
-            <img src="image/r2.jpg" alt="">
+            <img src="image/tents.jpg" alt="">
           </div>
           <div class="text">
-            <h3>Superior Tent Rooms</h3>
-            <p> <span>P</span>2000 <span>/per night</span> </p>
+            <h3>Tent Rooms</h3>
+            <p> <span>P</span>400 <span>each</span> </p>
           </div>
         </div>
         <div class="box">
           <div class="img">
-            <img src="image/r3.jpg" alt="">
+            <img src="image/bed.jpg" alt="">
           </div>
           <div class="text">
-            <h3>Camping Grounds</h3>
-            <p> <span>P</span>400 <span>/per day</span> </p>
+            <h3>Beds</h3>
+            <p> <span>P</span>400 <span>.00</span> </p>
           </div>
         </div>
       </div>
@@ -355,7 +332,7 @@ We encourage camping because it provides a host of benefits. Simply put, camping
 
 
 
-  <section class="gallary mtop " id="gallary">
+  <section class="gallary mtop " id="gallery">
     <div class="container">
       <div class="heading_top flex1">
         <div class="heading">
@@ -396,6 +373,31 @@ We encourage camping because it provides a host of benefits. Simply put, camping
 
     </div>
   </section>
+   <section class="book" id="book">
+    <div class="container flex">
+      <div class="input grid">
+        <div class="box">
+          <label>Check-in:</label>
+          <input type="date" placeholder="Check-in-Date">
+        </div>
+        <div class="box">
+          <label>Check-out:</label>
+          <input type="date" placeholder="Check-out-Date">
+        </div>
+        <div class="box">
+          <label>Cite:</label> <br>
+          <input type="text" placeholder="Cite to visit">
+        </div>
+        <div class="box">
+          <label>Numbers:</label> <br>
+          <input type="number" placeholder="0">
+        </div>
+      </div>
+      <div class="search">
+        <input type="submit" value="BOOK NOW">
+      </div>
+    </div>
+  </section>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous"
     referrerpolicy="no-referrer"></script>
@@ -423,18 +425,10 @@ We encourage camping because it provides a host of benefits. Simply put, camping
   </script>
 
 
-
-  <section class="map top">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14131.036667732067!2d85.32395955!3d27.69383745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1637755481449!5m2!1sen!2snp" width="600" height="450" style="border:0;"
-      allowfullscreen="" loading="lazy"></iframe>
-  </section>
-
-
   <footer>
     <div class="container grid top">
       <div class="box">
         <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/48/000000/external-hotel-hotel-services-and-city-elements-flatart-icons-flat-flatarticons-1.png" />
-        <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
         <p>Accepted payment methods</p>
         <div class="payment grid">
@@ -451,15 +445,15 @@ We encourage camping because it provides a host of benefits. Simply put, camping
         <ul>
           <li>Our Secret Island Boat Tour Is Just for You</li>
           <li>Chill and Escape in Our Natural Shelters</li>
-          <li>September in Luviana Hotel</li>
-          <li>Live Music Concerts at Luviana</li>
+          <li>September in KHWAI</li>
+          <li>Live Music Concerts at KHWAI</li>
         </ul>
       </div>
 
       <div class="box">
         <h3>For Customers</h3>
         <ul>
-          <li>About Luviana</li>
+          <li>About Botswana Camp Trials</li>
           <li>Customer Care/Help</li>
           <li>Corporate Accounts</li>
           <li>Financial Information</li>
@@ -471,8 +465,8 @@ We encourage camping because it provides a host of benefits. Simply put, camping
         <h3>Contact Us</h3>
 
         <ul>
-          <li>3015 Grand Ave, Cocount Grove, Merrick Way FL 123456</li>
-          <li><i class="far fa-envelope"></i>demoexample@gmail.com </li>
+          <li>3015 Grand Bac, Animal farm, Francistown 123456</li>
+          <li><i class="far fa-envelope"></i>topo@gmail.com </li>
           <li><i class="far fa-phone-alt"></i>123 456 7898 </li>
           <li><i class="far fa-phone-alt"></i>123 456 7898 </li>
           <li><i class="far fa-comments"></i>24/ 7 Customer Services </li>
